@@ -1,9 +1,26 @@
 body {
     font-family: 'inter', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     background-color: #f1f1f1;
-    margin: 5%;
+    font-size: xx-large;
+}
+#special-offert{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(255, 255, 255);
+}
+.header{
+     /* border: 1px solid #ccc;  */
+     padding: 10px 50px 50px 50px;
+    /* margin: 5%; */
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcG1lbnQlMjB3ZWJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60');
+}
+#header-logo{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 0 30px 0px;
 }
 #di{
     font-size: 1.5em;
@@ -13,25 +30,31 @@ body {
     font-size: 1.5em;
     color: white;
 }
+#online{
+    font-size: 0.5em;
+    color: white;
+    gap: 0;
+}
 #contact{
     color: white;
     border: solid 1px white;
     padding: 10px 20px;
     border-radius: 50px;
     cursor: pointer;
-    /* background-color: transparent; */
+    background-color: transparent;
 }
-/* .header-body{
-    margin: 5%;
-} */
+#header-body{
+    display: flex; 
+    /* border: 1px solid #ccc;  */
+    justify-content: space-between;
+}
 #header-left{
-    margin: 0 10px 0 0;
+    /* margin: 0 0 0 0; */
     p{
-        font-size: 10px;
+        font-size:  10px;
+        font-weight: bold;
+        color: #fff;
     }
-}
-#header-right{
-    
 }
 #main-text-heading{
     font-size: 1.5em;
@@ -39,5 +62,41 @@ body {
     color: #fff;
     span{
         color: orange;
+    }
+}
+#header-right{
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+    /* width: 500px; */
+    p{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+.header-right-card{
+    display: flex;
+}
+.card{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    img{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+    p{
+        margin: 10px;
+        /* font-size: 50px; */
     }
 }
