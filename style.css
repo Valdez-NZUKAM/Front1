@@ -1,0 +1,43 @@
+body {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    margin: 5%;
+}
+#di{
+    font-size: 1.5em;
+    color: orange;
+}
+#stu{
+    font-size: 1.5em;
+    color: white;
+}
+#contact{
+    color: white;
+    border: solid 1px white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    /* background-color: transparent; */
+}
+/* .header-body{
+    margin: 5%;
+} */
+#header-left{
+    margin: 0 10px 0 0;
+    p{
+        font-size: 10px;
+    }
+}
+#header-right{
+    
+}
+#main-text-heading{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    span{
+        color: orange;
+    }
+}
