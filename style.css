@@ -23,17 +23,19 @@ body {
     padding: 0 0 30px 0px;
 }
 #di{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: orange;
 }
 #stu{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
 }
-#online{
-    font-size: 0.5em;
-    color: white;
-    gap: 0;
+#header-logo #online{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.3em;
+    color: rgba(255, 255, 255, 0.500);
+    margin: 0 0 0 3px;
+    
 }
 #contact{
     color: white;
@@ -54,6 +56,11 @@ body {
         font-size:  10px;
         font-weight: bold;
         color: #fff;
+        img{
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+        }
     }
 }
 #main-text-heading{
@@ -64,6 +71,7 @@ body {
         color: orange;
     }
 }
+
 #header-right{
     background-color: #f1f1f1;
     padding: 10px;
